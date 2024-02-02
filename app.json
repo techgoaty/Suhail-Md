@@ -9,25 +9,25 @@
   "env": {
     "OWNER_NAME": {
       "description": "Name of Bot Owner",    
-      "value": "Suhail Ser",
+      "value": "Anonymous",
       "required" :true
     },   
      
     "WELCOME": {
       "description": "put 'false' if you don't want to enable WELCOME ",
       "value": "true",
-      "required" :false
+      "required" : true
     },
      
     "GOODBYE": {
       "description": "put 'false' or 'true' to enable & disable GOODBYE ",
-      "value": "false",
-      "required" :false
+      "value": "true",
+      "required" :true
     },
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required" :false,    
-      "value": "sᴜʜᴀɪʟ-ᴍᴅ"
+      "value": "techgoat bot"
     }, 
     "IMAGE": {
       "description": "Image for bot",
@@ -52,7 +52,7 @@
     "READ_COMMAND": {
       "description": " Read bot cmds",
       "required" :false,    
-      "value": "false"
+      "value": "true"
     }, 
     "AUTO_SAVE_STATUS": {
       "description": " Auto save whatsapp status", 
@@ -61,7 +61,7 @@
     }, 
     "HEROKU_API_KEY": {
       "description": "Put Your Heroku Api Key Here",
-      "value": "",
+      "value": "97973722-3d80-40df-af8a-6b88b25a227e",
       "required" :true 
     },   
     "HEROKU_APP_NAME": {
@@ -100,7 +100,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "923184474176"
+      "value": "2348056329505"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
